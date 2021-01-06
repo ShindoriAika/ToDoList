@@ -3,9 +3,6 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Todo List</title>
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
 		<link rel="stylesheet" href="stylesheet.css">
 		<script src="https://code.jquery.com/jquery-3.5.1.js"
 			integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
@@ -32,15 +29,15 @@
 			<form id="form">
 				<p id="error-message"></p>
 				<input class="form-control" id="textbox" type="text"><br>
-				<div id="redio">
-					<input class="level form-check-input" id="radio1" type="radio" name="level" value="1">
-					<label for="radio1">優先度高</label>
-					<input class="level form-check-input" id="radio2" type="radio" name="level" value="2">
-					<label for="radio2">優先度中</label>
-					<input class="level form-check-input" id="radio3" type="radio" name="level" value="3">
-					<label for="radio3">優先度低</label><br>
+				<div id="radio-btn">
+					<input class="level" id="radio1" type="radio" name="level" value="1">
+					<label for="radio1" class="lavel">高</label>
+					<input class="level" id="radio2" type="radio" name="level" value="2">
+					<label for="radio2" class="lavel">中</label>
+					<input class="level" id="radio3" type="radio" name="level" value="3">
+					<label for="radio3" class="lavel">低</label>
+					<button class="btn" type="submit">Add</button>
 				</div>
-				<button class="btn btn-default" type="submit">Add</button>
 			</form>
 			<script type="text/javascript" src="script.js"></script>
 		</div>

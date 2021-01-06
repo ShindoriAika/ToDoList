@@ -1,131 +1,214 @@
 body {
-	margin: 0;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	-webkit-font-smoothing: antialiased;
-	background-color:#ebf5fc;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #ebf5fc;
 }
 
-.container {
-	width: 1200px;
-	padding-right: 200px;
-	padding-left: 200px;
-	margin-right: auto;
-	margin-left: auto;
+body .container {
+  width: 80%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-h1{
-	text-align:center;
-	font-weight: bold;
-	color:#babecc;
-	text-shadow:1px 1px 1px #fff;
+body .container h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #babecc;
+  text-shadow: 1px 1px 1px #fff;
 }
 
-h5{
-	padding:10px;
-	color:#babecc;
-	text-shadow:1px 1px 1px #fff;
+body .container #list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 0px 30px 0px;
 }
 
-ul{
-	list-style:none;
-	padding:0px 30px;
+body .container #list .list {
+  width: 1000px;
+  padding: 0px 0px 20px 0px;
+  background-color: #ebf5fc;
+  border-radius: 40px;
+  text-align: center;
+  -webkit-box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-#error-message{
-	color:red;
+body .container #list .list #todoList {
+  margin-right: 10px;
 }
 
-#list{
-	display:flex;
+body .container #list .list #endList {
+  margin-left: 10px;
 }
 
-.list{
-	width:1000px;
-	padding:0px 0px 20px 0px;
-	margin:10px;
-	background-color:#ebf5fc;
-	border-radius:40px;
-	text-align:center;
-	box-shadow:-2px -2px 5px rgba(255,255,255,1),
-		3px 3px 5px rgba(0,0,0,0.1);
+body .container #list .list h5 {
+  padding: 10px;
+  color: #babecc;
+  text-shadow: 1px 1px 1px #fff;
 }
 
-.list-item1{
-	color:white;
-	padding:10px 10px;
-	margin:0px 0px 10px 0px;
-	border-radius:50px;
-	background-color:#ff6666;
-	box-shadow:-2px -2px 5px rgba(255,255,255,1),
-		3px 3px 5px rgba(0,0,0,0.1);
-
+body .container #list .list ul {
+  list-style: none;
+  padding: 0px 30px;
 }
 
-.list-item2{
-	color:white;
-	padding:10px 10px;
-	margin:0px 0px 10px 0px;
-	border-radius:50px;
-	background-color:#ffd700;
-	box-shadow:-2px -2px 5px rgba(255,255,255,1),
-		3px 3px 5px rgba(0,0,0,0.1);
-
+body .container #list .list ul .list-item1 {
+  color: white;
+  padding: 10px 10px;
+  margin: 0px 0px 10px 0px;
+  border-radius: 50px;
+  background-color: #ff6666;
+  -webkit-box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.list-item3{
-	color:white;
-	padding:10px 10px;
-	margin:0px 0px 10px 0px;
-	border-radius:50px;
-	background-color:#2ee6e6;
-	box-shadow:-2px -2px 5px rgba(255,255,255,1),
-		3px 3px 5px rgba(0,0,0,0.1);
-
+body .container #list .list ul .list-item1 .btn {
+  float: right;
+  padding: 2px 8px;
+  margin: 0px 5px 0px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  background-color: #ebf5fc;
+  -webkit-box-shadow: -1px -1px 2px white, 2px 2px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: -1px -1px 2px white, 2px 2px 3px rgba(0, 0, 0, 0.1);
 }
 
-li .btn{
-	float:right;
-	padding:2px 8px;
-	margin:0px 5px 0px 0px;
-	border:0;
-	outline:0;
-	border-radius:50px;
-	background-color:#ebf5fc;
-	box-shadow:-1px -1px 2px rgba(255,255,255,1),
-		2px 2px 3px rgba(0,0,0,0.1);
+body .container #list .list ul .list-item1 .btn:active {
+  -webkit-box-shadow: 1px 1px 2px white, -2px -2px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 2px white, -2px -2px 3px rgba(0, 0, 0, 0.1);
 }
 
-#form{
-	text-align:center;
-	margin:10px;
-	color:#babecc;
+body .container #list .list ul .list-item2 {
+  color: white;
+  padding: 10px 10px;
+  margin: 0px 0px 10px 0px;
+  border-radius: 50px;
+  background-color: #ffd700;
+  -webkit-box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-#textbox{
-	color:#babecc;
-	border:0;
-	outline:0;
-	border-radius:50px;
-	background-color:#ebf5fc;
-	box-shadow:2px 2px 5px rgba(255,255,255,1),
-		-3px -3px 5px rgba(0,0,0,0.1);
+body .container #list .list ul .list-item2 .btn {
+  float: right;
+  padding: 2px 8px;
+  margin: 0px 5px 0px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  background-color: #ebf5fc;
+  -webkit-box-shadow: -1px -1px 2px white, 2px 2px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: -1px -1px 2px white, 2px 2px 3px rgba(0, 0, 0, 0.1);
 }
 
-lavel{
-	font-weight:normal;
+body .container #list .list ul .list-item2 .btn:active {
+  -webkit-box-shadow: 1px 1px 2px white, -2px -2px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 2px white, -2px -2px 3px rgba(0, 0, 0, 0.1);
 }
 
-#form button{
-	margin:20px;
-	padding:10px 30px;
-	border:0;
-	outline:0;
-	border-radius:50px;
-	font-weight: bold;
-	color:#babecc;
-	text-shadow:1px 1px 1px #fff;
-	background-color:#ebf5fc;
-	box-shadow:-2px -2px 5px rgba(255,255,255,1),
-		3px 3px 5px rgba(0,0,0,0.1);
+body .container #list .list ul .list-item3 {
+  color: white;
+  padding: 10px 10px;
+  margin: 0px 0px 10px 0px;
+  border-radius: 50px;
+  background-color: #2ee6e6;
+  -webkit-box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
+
+body .container #list .list ul .list-item3 .btn {
+  float: right;
+  padding: 2px 8px;
+  margin: 0px 5px 0px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  background-color: #ebf5fc;
+  -webkit-box-shadow: -1px -1px 2px white, 2px 2px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: -1px -1px 2px white, 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+body .container #list .list ul .list-item3 .btn:active {
+  -webkit-box-shadow: 1px 1px 2px white, -2px -2px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 2px white, -2px -2px 3px rgba(0, 0, 0, 0.1);
+}
+
+#form {
+  width: 80%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: #babecc;
+}
+
+#form #error-message {
+  color: red;
+}
+
+#form #textbox {
+  border: 0;
+  outline: 0;
+  margin: 0px 0px 20px 0px;
+  padding: 10px 100px;
+  border-radius: 50px;
+  text-align: center;
+  background-color: #ebf5fc;
+  -webkit-box-shadow: 2px 2px 5px white, -3px -3px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 2px 5px white, -3px -3px 5px rgba(0, 0, 0, 0.1);
+}
+
+#form #radio-btn {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#form #radio-btn input[type=radio] {
+  display: none;
+}
+
+#form #radio-btn input[type=radio]:checked + label {
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #fff;
+  -webkit-box-shadow: 2px 2px 5px white, -3px -3px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 2px 5px white, -3px -3px 5px rgba(0, 0, 0, 0.1);
+}
+
+#form #radio-btn .lavel {
+  text-align: center;
+  float: left;
+  padding: 5px 10px;
+  margin: 10px 5px;
+  width: 20px;
+  border-radius: 50px;
+  background-color: #ebf5fc;
+  text-shadow: 1px 1px 1px #fff;
+  -webkit-box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+#form #radio-btn button {
+  margin: 8px 20px;
+  padding: 10px 40px;
+  float: left;
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  font-weight: bold;
+  color: #babecc;
+  text-shadow: 1px 1px 1px #fff;
+  background-color: #ebf5fc;
+  -webkit-box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+#form #radio-btn button:active {
+  -webkit-box-shadow: 2px 2px 5px white, -3px -3px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 2px 5px white, -3px -3px 5px rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=stylesheet.css.map */
