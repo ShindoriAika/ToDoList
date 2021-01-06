@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>Todo List</title>
+		<link rel="stylesheet" href="stylesheet.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.js"
+			integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			crossorigin="anonymous">
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Todo List</h1>
+			<div id="list">
+				<div class="list" id="todoList">
+					<h5>やることリスト</h5>
+					<ul class="todo-list" id="todo1"></ul>
+					<ul class="todo-list" id="todo2"></ul>
+					<ul class="todo-list" id="todo3"></ul>
+				</div>
+				<div class="list" id="endList">
+					<h5>終わったリスト</h5>
+					<ul class="end-list" id="end1"></ul>
+					<ul class="end-list" id="end2"></ul>
+					<ul class="end-list" id="end3"></ul>
+				</div>
+			</div>
+			<form id="form">
+				<p id="error-message"></p>
+				<input class="form-control" id="textbox" type="text"><br>
+				<div id="radio-btn">
+					<input class="level" id="radio1" type="radio" name="level" value="1">
+					<label for="radio1" class="lavel">高</label>
+					<input class="level" id="radio2" type="radio" name="level" value="2">
+					<label for="radio2" class="lavel">中</label>
+					<input class="level" id="radio3" type="radio" name="level" value="3">
+					<label for="radio3" class="lavel">低</label>
+					<button class="btn" type="submit">Add</button>
+				</div>
+			</form>
+			<script type="text/javascript" src="script.js"></script>
+		</div>
+	</body>
+</html>
