@@ -28,6 +28,14 @@ body .container #list {
   margin: 0px 0px 30px 0px;
 }
 
+body .container #list #todoList {
+  margin-right: 10px;
+}
+
+body .container #list #endList {
+  margin-left: 10px;
+}
+
 body .container #list .list {
   width: 1000px;
   padding: 0px 0px 20px 0px;
@@ -36,14 +44,6 @@ body .container #list .list {
   text-align: center;
   -webkit-box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
           box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
-}
-
-body .container #list .list #todoList {
-  margin-right: 10px;
-}
-
-body .container #list .list #endList {
-  margin-left: 10px;
 }
 
 body .container #list .list h5 {

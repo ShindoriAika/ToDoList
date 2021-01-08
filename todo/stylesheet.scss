@@ -51,6 +51,14 @@ body {
             display:flex;
             margin:0px 0px 30px 0px;
 
+            #todoList{
+                margin-right:10px;
+            }
+            
+            #endList{
+                margin-left:10px;
+            }
+
             .list{
                 width:1000px;
                 padding:0px 0px 20px 0px;
@@ -59,14 +67,6 @@ body {
                 text-align:center;
                 box-shadow:-2px -2px 5px rgba(255,255,255,1),
                     3px 3px 5px rgba(0,0,0,0.1);
-
-                #todoList{
-                    margin-right:10px;
-                }
-                
-                #endList{
-                    margin-left:10px;
-                }
 
                 h5{
                     padding:10px;
